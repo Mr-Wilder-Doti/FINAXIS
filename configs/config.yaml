@@ -1,0 +1,19 @@
+{
+  "environment": "dev",
+  "app": {
+    "name": "global-portfolio-recommendation-bot",
+    "strategy_name": "global_mock_v1"
+  },
+  "logging": {
+    "level": "INFO",
+    "structured": true
+  },
+  "data_sources": {
+    "market_data_provider": "mock",
+    "macro_data_provider": "mock"
+  },
+  "output": {
+    "format": "json",
+    "timezone": "UTC"
+  }
+}
